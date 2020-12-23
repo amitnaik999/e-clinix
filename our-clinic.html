@@ -1,0 +1,73 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="icon" type="image/png" href="./assets/img/favicon-16x16.png" sizes="16x16"/><link rel="icon" type="image/png" href="./assets/img/favicon-32x32.png" sizes="32x32"/><link rel="stylesheet" href="./assets/css/main.css"/><title>e-clinix</title></head><body class="text-lg"><header>
+<nav class="shadow bg-primery text-white">
+<div x-data="{isOpen: false}" class="container mx-auto py-3 px-5 md:px-5 md:flex md:justify-between md:items-center">
+<div class="flex justify-between items-center">
+<div class="flex items-center">
+<img class="h-16" src="assets/img/logo.png" alt="">
+<a class="ml-4 text-xl" href="#">e-clinix</a>
+</div>
+<div class="flex md:hidden">
+<button type="button" class="focus:outline-none focus:outline-none" aria-label="toggle menu" @click="isOpen = !isOpen">
+<svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="24px" height="24px"><path d="M 6 9 A 2.0002 2.0002 0 1 0 6 13 L 42 13 A 2.0002 2.0002 0 1 0 42 9 L 6 9 z M 6 22 A 2.0002 2.0002 0 1 0 6 26 L 42 26 A 2.0002 2.0002 0 1 0 42 22 L 6 22 z M 6 35 A 2.0002 2.0002 0 1 0 6 39 L 42 39 A 2.0002 2.0002 0 1 0 42 35 L 6 35 z"/></svg>
+</button>
+</div>
+</div>
+<div :class="isOpen ? 'show' : 'hidden'" class="md:flex md:block items-center mt-4 sm:mt-0">
+<div class="flex flex-col md:flex-row md:ml-6">
+<a class="my-1 md:mx-4 md:my-0" href="index.html">Home</a>
+<a class="my-1 md:mx-4 md:my-0" href="index.html">About</a>
+<a class="my-1 md:mx-4 md:my-0" href="index.html">Doctors</a>
+<a class="my-1 md:mx-4 md:my-0" href="index.html">Departments</a>
+<a class="my-1 md:mx-4 md:my-0" href="index.html">Contact</a>
+</div>
+<div class="flex items-center py-2 mx-1 md:mx-0 md:ml-6">
+<a class="flex items-center block px-4 py-2 mx-1 rounded-full text-center bg-white text-primery font-semibold md:mx-0 md:w-auto" href="#">Appointment
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+<path d="M5 12h14M12 5l7 7-7 7"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</nav>
+</header><section class="text-gray-700 body-font">
+<div class="container mx-auto flex px-5 mb-20 mt-10 sm:mt-10 items-center justify-center flex-col">
+<img class="lg:w-4/6 md:w-3/6 sm:w-5/6 px-10 object-cover object-center rounded" alt="hero" src="././assets/img/7882.jpg">
+<div class="text-center lg:w-2/3 w-full">
+<h1 class="title-font sm:text-4xl md:text-5xl font-bold text-primery">Comming soon...</h1>
+</div>
+</div>
+</section><footer class="bg-black text-white body-font">
+<div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+<a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+<span class="ml-3 text-xl text-white">e-clinix</span>
+</a>
+<p class="text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:mt-0">© 2020 e-clinix
+</p>
+<span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+<a class="text-gray-500">
+<svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+</svg>
+</a>
+<a class="ml-3 text-gray-500">
+<svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+<path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+</svg>
+</a>
+<a class="ml-3 text-gray-500">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+<rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+</svg>
+</a>
+<a class="ml-3 text-gray-500">
+<svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+<path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+<circle cx="4" cy="4" r="2" stroke="none"></circle>
+</svg>
+</a>
+</span>
+</div>
+</footer><script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+<script src="./assets/js/app.js"></script></body></html>
